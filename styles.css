@@ -13,9 +13,10 @@ body{
 .card{
     margin: auto;
     background-color: #FFFFFF;
-    padding: 16px;
-    width: 180px;
+    padding: 8px;
+    width: 210px;
     border-radius: 8px;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .08);;
 }
 
 img{
@@ -23,13 +24,16 @@ img{
     border-radius: 8px;
 }
 
+
 .card_title{
+    margin: 12px 6px 8px;
     font-size: 15px;
     font-weight: 700;
     color:hsl(218, 44%, 22%);
 }
 
 .card_description{
+    margin: 0 10px 16px;
     font-size: 11px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
